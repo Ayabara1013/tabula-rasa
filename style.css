@@ -1,0 +1,125 @@
+html {
+  background-color: #333333;
+}
+
+* {
+  font-family: Arial, Gadget, sans-serif;
+  font-weight: bold;
+/*   color: white; */
+}
+
+
+/* elements */
+h1 {
+  color: white;
+}
+
+p {
+  font-weight: normal;
+  color: white;
+}
+
+input[name=checkbox] {
+  height: 50px;
+  width: 50px;
+}
+
+label input{
+  font-size: 2em;
+}
+
+/* classes */
+.button {
+  margin: 0.5rem 1rem;
+  color: black;
+}
+
+.rounded {
+ border-radius: 1rem; 
+}
+
+.flex-container {
+  display: block;
+  flex-wrap: wrap;
+/*   background-color: palegreen; */
+}
+
+.alert-simple {
+  font-weight: normal;
+  /* color: white; */
+}
+
+.white {
+  color: white;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
+
+.normal-w {
+  font-weight: normal;
+}
+
+/* id's */
+#input-alert {
+  display: none;
+}
+
+#old-phrase {
+  font-weight: normal;
+  /* color: white;   */
+}
+
+#new-phrase {
+  font-weight: normal;
+}
+
+#title {
+  display: block;
+  padding: 1rem;
+  color: seagreen;
+  background-color: palegreen;
+}
+
+#entry-field {
+  display: block;
+  margin: 0.5rem 1rem;
+  width: 60%;
+}
+
+.result-box {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: auto;
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 5px;
+}
+.result-box div {
+  color: black;
+}
+
+/* tables */
+#sorted-words {
+  background-color: lightslategray;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}

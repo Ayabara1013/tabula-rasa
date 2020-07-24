@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+  <h1 id="title" class="rounded">Greenbottle's Lexicon</h1>
+
+  <input id="entry-field" type="text" placeholder="placeholder text" oninput="updateOriginal()">
+  <div>
+    <input id="submit" class="button" type="submit" value="translate">
+    <input id="sample" class="button" type="submit" value="sample">
+    <input id="lorem" class="button" type="submit" value="lorem ipsum">
+    <input id="clear" class="button" type="submit" value="clear">
+  </div>
+  <h3 id="input-alert">ph</h3>
+  
+  <hr>
+  
+  <div>
+    <h1>rules</h1>
+    <h2 class="white">vowels</h2>
+    <div id="vowButt"></div>
+    <h2 class="white">consonants</h2>
+    <div id="conButt"></div>
+
+  </div>
+
+  <hr>
+  
+  <h1>results</h1>
+  <p id="old-phrase">oldphrase</p>
+  <p id="new-phrase" class="red">newphrase</p>
+  
+  <hr>
+  <h1>words</h1>
+  
+  <div id="results" class="flex-container rounded">
+    <div id="" class="result-box">
+      <div>original</div>
+      <hr>
+      <div>new</div>
+    </div>
+  </div>
+  
+  <input id="sort-button" class="button" type="submit" value="sort">
+
+  <div id="sorting-container">
+    <table id="sorted-words">
+      <tr>
+        <th>new</th>
+        <th>original</th>
+      </tr>
+      <tr>
+        <td>new word</td>
+        <td>old word </td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="./listeners.js"></script>
+  <script src="./script.js"> </script>
+  <script src="./textDisplays.js"></script>
+  
+</body>
+
+</html>
+
+
+
